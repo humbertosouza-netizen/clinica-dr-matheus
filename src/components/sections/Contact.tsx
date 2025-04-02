@@ -1,13 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaWhatsapp, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
-import Image from 'next/image';
 
 const Contact = () => {
-  const handleWhatsAppClick = () => {
-    const message = encodeURIComponent('Olá, gostaria de agendar uma consulta.');
-    window.open(`https://wa.me/5567981685349?text=${message}`, '_blank');
-  };
-
   return (
     <section id="contato" className="container-section bg-black relative overflow-hidden">
       <div className="absolute inset-0 bg-black z-0"></div>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaWhatsapp, FaArrowRight, FaUndoAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaUndoAlt } from 'react-icons/fa';
 
 type FormStep = 'symptoms' | 'location' | 'duration' | 'previous' | 'summary';
 

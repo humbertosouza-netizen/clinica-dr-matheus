@@ -78,8 +78,8 @@ const About = () => {
             </div>
 
             <p className="text-gray-300">
-              "Meu objetivo é proporcionar um atendimento humanizado e de excelência, utilizando as técnicas mais modernas 
-              para garantir o melhor resultado para cada paciente."
+              &ldquo;Meu objetivo é proporcionar um atendimento humanizado e de excelência, utilizando as técnicas mais modernas 
+              para garantir o melhor resultado para cada paciente.&rdquo;
             </p>
           </motion.div>
         </div>
