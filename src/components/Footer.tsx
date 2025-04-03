@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="relative h-10 w-auto">
                 <Image 
                   src="/images/logo.png" 
-                  alt="Dr. Matheus Henrique - Odontologia Especializada"
+                  alt="Dr. Matheus Dias - Odontologia Especializada"
                   width={150}
                   height={40}
                   className="object-contain"
@@ -88,7 +88,7 @@ const Footer = () => {
       {/* Direitos Autorais */}
       <div className="bg-black py-4">
         <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
-          © {currentYear} Dr. Matheus Henrique - Todos os direitos reservados.
+          © {currentYear} Dr. Matheus Dias - Todos os direitos reservados.
           <div className="mt-2">
             Desenvolvido por <a href="https://www.instagram.com/humbertodev.js/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Humberto Azambuja</a>
           </div>

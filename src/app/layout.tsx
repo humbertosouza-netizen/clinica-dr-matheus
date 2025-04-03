@@ -6,7 +6,7 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Dr. Matheus Henrique | Dentista Especializado',
+  title: 'Dr. Matheus Dias | Dentista Especializado',
   description: 'Serviços odontológicos de alta qualidade: tratamento de canal, cirurgia de sisos, próteses dentárias, clareamento e restauração.',
   keywords: 'dentista, odontologia, tratamento de canal, próteses dentárias, clareamento dental',
   icons: {

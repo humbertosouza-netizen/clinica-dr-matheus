@@ -37,10 +37,11 @@ const About = () => {
             <div className="w-full h-full relative">
               <Image
                 src="/images/dr-matheus.jpg"
-                alt="Dr. Matheus Henrique"
-                fill
-                className="object-cover rounded-lg"
-                objectPosition="center 20%"
+                alt="Dr. Matheus Dias"
+                width={400}
+                height={400}
+                className="rounded-xl object-cover h-full"
+                objectPosition="center"
               />
             </div>
           </motion.div>
@@ -51,16 +52,26 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h2 className="heading-secondary mb-6">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                Dr. Matheus Henrique
-              </span>
-            </h2>
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="heading-secondary mb-4"
+            >
+              Dr. Matheus Dias
+            </motion.h2>
             
-            <p className="text-gray-300 mb-6">
-              Com mais de 5 anos de experiência, o Dr. Matheus Henrique é especialista em diversas áreas da odontologia, 
-              sempre buscando oferecer os tratamentos mais modernos e eficazes para seus pacientes.
-            </p>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="text-gray-300 mb-6"
+            >
+              Com mais de 5 anos de experiência, o Dr. Matheus Dias é especialista em diversas áreas da odontologia,
+              oferecendo tratamentos personalizados e de alta qualidade.
+            </motion.p>
 
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-3">

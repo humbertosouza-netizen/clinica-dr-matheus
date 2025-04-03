@@ -48,9 +48,9 @@ const Navbar = () => {
           <div className="relative h-12 w-auto">
             <Image 
               src="/images/logo.png" 
-              alt="Dr. Matheus Henrique - Odontologia Especializada"
-              width={180}
-              height={48}
+              alt="Dr. Matheus Dias - Odontologia Especializada"
+              width={150}
+              height={40}
               className="object-contain"
               priority
             />

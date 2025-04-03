@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="w-full h-full relative">
             <Image
               src="/images/dr-matheus.jpg"
-              alt="Dr. Matheus Henrique"
+              alt="Dr. Matheus Dias"
               fill
               className="object-cover rounded-lg"
               objectPosition="center 20%"
