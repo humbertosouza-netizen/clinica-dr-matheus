@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaWhatsapp, FaUndoAlt } from 'react-icons/fa';
+import { Grid, Button } from '@mui/material';
+import { TextField } from '@mui/material';
 
 type FormStep = 'symptoms' | 'location' | 'duration' | 'previous' | 'summary';
 
@@ -19,6 +21,7 @@ const PreForm = () => {
     duration: '',
     previous: '',
   });
+  const [message, setMessage] = useState('');
 
   const updateFormData = (field: keyof FormData, value: string) => {
     setFormData({ ...formData, [field]: value });
@@ -62,7 +65,7 @@ const PreForm = () => {
       `Tratamento anterior: ${formData.previous === 'Sim' ? 'Sim' : 'Não'}`
     );
     
-    window.open(`https://wa.me/5567981685349?text=${message}`, '_blank');
+    window.open(`https://wa.me/5517981615329?text=${message}`, '_blank');
   };
 
   const renderStep = () => {

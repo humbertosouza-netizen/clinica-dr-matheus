@@ -59,16 +59,16 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-blue-400 mt-1 mr-3" />
-                <span className="text-gray-400">Rua Rubião Júnior, 3142</span>
+                <span className="text-gray-400">R. Rubião Júnior, 3142 - Centro, São José do Rio Preto - SP, 15010-090</span>
               </li>
               <li className="flex items-start">
                 <FaPhone className="text-blue-400 mt-1 mr-3" />
-                <span className="text-gray-400">+55 67 98168-5349</span>
+                <span className="text-gray-400">+55 17 98161-5329</span>
               </li>
               <li className="flex items-start">
                 <FaWhatsapp className="text-blue-400 mt-1 mr-3" />
                 <a 
-                  href="https://wa.me/5567981685349" 
+                  href="https://wa.me/5517981615329" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-blue-400 transition-colors"

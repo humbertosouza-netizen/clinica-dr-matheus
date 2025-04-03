@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white text-xl font-semibold mb-2">Endereço</h3>
-                <p className="text-gray-300">Rua Rubião Júnior, 3142</p>
+                <p className="text-gray-300">R. Rubião Júnior, 3142 - Centro, São José do Rio Preto - SP, 15010-090</p>
               </div>
             </div>
             
@@ -42,12 +42,12 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white text-xl font-semibold mb-2">Telefone/WhatsApp</h3>
-                <p className="text-gray-300">+55 67 98168-5349</p>
+                <p className="text-gray-300">+55 17 98161-5329</p>
               </div>
             </div>
 
             <motion.a
-              href="https://wa.me/5567981685349"
+              href="https://wa.me/5517981615329"
               className="button-primary w-full mt-8"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -69,7 +69,7 @@ const Contact = () => {
             <div className="relative h-64 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-tl from-blue-500/20 to-transparent z-10 rounded-lg pointer-events-none"></div>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4171.313469893073!2d-49.3826245!3d-20.8148826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad5e8459147d%3A0xd7991d4c45892f72!2sR.%20Rubi%C3%A3o%20J%C3%BAnior%2C%203142%20-%20Centro%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP%2C%2015010-090!5e1!3m2!1sen!2sbr!4v1743565085405!5m2!1sen!2sbr" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.0902960945!2d-49.38523662559525!3d-20.8148826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad5e8459147d%3A0xd7991d4c45892f72!2sR.%20Rubi%C3%A3o%20J%C3%BAnior%2C%203142%20-%20Centro%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP%2C%2015010-090!5e0!3m2!1spt-BR!2sbr!4v1743617301376!5m2!1spt-BR!2sbr" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
