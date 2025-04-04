@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: 'Serviços odontológicos de alta qualidade: tratamento de canal, cirurgia de sisos, próteses dentárias, clareamento e restauração.',
   keywords: 'dentista, odontologia, tratamento de canal, próteses dentárias, clareamento dental',
   icons: {
-    icon: '/images/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 
