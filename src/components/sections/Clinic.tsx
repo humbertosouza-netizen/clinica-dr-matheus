@@ -11,8 +11,6 @@ const Clinic = () => {
   const clinicImages = [
     { src: '/images/clinic-1.jpg', alt: 'Recepção da Clínica' },
     { src: '/images/clinic-2.jpg', alt: 'Consultório Moderno' },
-    { src: '/images/clinic-3.jpg', alt: 'Equipamentos Odontológicos' },
-    { src: '/images/clinic-4.jpg', alt: 'Sala de Espera' },
   ];
 
   const containerVariants = {
