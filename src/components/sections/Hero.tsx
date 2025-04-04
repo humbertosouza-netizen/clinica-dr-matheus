@@ -40,11 +40,11 @@ const Hero = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 z-10 rounded-lg pointer-events-none"></div>
           <Image
-            src="/images/dr-matheus.jpg"
+            src="/images/clinic-3.jpg"
             alt="Dr. Matheus Dias"
             fill
             className="object-cover rounded-lg"
-            objectPosition="center 20%"
+            objectPosition="center"
             priority
             sizes="(max-width: 768px) 100vw, 50vw"
           />
