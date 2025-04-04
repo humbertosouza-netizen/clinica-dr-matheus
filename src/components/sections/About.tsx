@@ -39,7 +39,7 @@ const About = () => {
               alt="Dr. Matheus Dias"
               fill
               className="object-cover rounded-lg"
-              objectPosition="center"
+              objectPosition="center 30%"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </motion.div>

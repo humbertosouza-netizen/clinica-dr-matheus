@@ -44,7 +44,7 @@ const Hero = () => {
             alt="Dr. Matheus Dias"
             fill
             className="object-cover rounded-lg"
-            objectPosition="75% center"
+            objectPosition="right center"
             priority
             sizes="(max-width: 768px) 100vw, 50vw"
           />
