@@ -33,17 +33,15 @@ const About = () => {
             animate={inView ? "visible" : "hidden"}
             className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 z-10 rounded-lg"></div>
-            <div className="w-full h-full relative">
-              <Image
-                src="/images/dr-matheus.jpg"
-                alt="Dr. Matheus Dias"
-                width={400}
-                height={400}
-                className="rounded-xl object-cover h-full"
-                objectPosition="center"
-              />
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 z-10 rounded-lg pointer-events-none"></div>
+            <Image
+              src="/images/dr-matheus.jpg"
+              alt="Dr. Matheus Dias"
+              fill
+              className="object-cover rounded-lg"
+              objectPosition="center"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
           </motion.div>
 
           <motion.div
