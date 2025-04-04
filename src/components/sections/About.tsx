@@ -35,7 +35,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 z-10 rounded-lg pointer-events-none"></div>
             <Image
-              src="/images/clinic-3.jpg"
+              src="/images/dr-matheus.jpg"
               alt="Dr. Matheus Dias"
               fill
               className="object-cover rounded-lg"
